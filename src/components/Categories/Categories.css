@@ -1,0 +1,120 @@
+.CategoriesSection.IsRed {
+  background: #e12021;
+}
+
+.CategoriesSection.IsGray {
+  background: #e3e3e3;
+}
+
+.CategoriesContent {
+  max-width: 1024px;
+  margin: auto;
+}
+
+.CategoriesHeader {
+  max-width: 1024px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 50px;
+}
+
+.CategoriesLogoWrapper {
+  width: 160px;
+}
+
+.CategoriesLogo {
+  max-width: 100%;
+  max-height: 100%;
+  cursor: pointer;
+}
+
+.CategoriesHeaderLinks {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 50%;
+}
+
+.CategoriesHeaderLink {
+  color: #ffffff;
+  font-weight: 500;
+  width: 200px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.CategoriesContent {
+  padding: 50px;
+}
+
+.CategoriesTitle {
+  max-width: 600px;
+  margin-bottom: 50px;
+}
+
+.CategoriesFilters {
+  border: 1px solid #cccccc;
+  display: flex;
+  justify-content: space-between;
+}
+
+.CategoriesFilterWrapper {
+  width: 40%;
+  padding: 15px;
+  border-right: 1px solid #cccccc;
+  display: flex;
+  align-items: center;
+}
+
+.CategoriesFilterWrapper.HasButton {
+  width: 20%;
+  border: none;
+}
+
+.CategoriesFilterInputGroup {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  overflow: hidden;
+}
+
+.CategoriesFilterLabel {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.CategoriesFilterInput {
+  border: none;
+  border-bottom: 1px solid #333333;
+  width: 100%;
+  outline: none;
+  background: transparent;
+  font-size: 18px;
+  padding: 5px;
+}
+
+
+.CategoriesFilterButton {
+  padding: 15px;
+  background: #e12021;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+  min-width: 120px;
+  box-shadow: 2px 2px 3px #333333;
+  width: 100%;
+}
+
+.CategoriesSubtitle {
+  margin-top: 0;
+}
+
+.CategoriesCategoryCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}

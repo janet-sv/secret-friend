@@ -1,0 +1,239 @@
+.Landing {
+  position: relative;
+}
+
+.LandingHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 50px;
+  max-width: 1024px;
+  margin: auto;
+}
+
+.LandingSection.IsHeader {
+  background: #4443cd;
+  padding: 0;
+}
+
+.LandingLogoWrapper {
+  width: 160px;
+}
+
+.LandingLogo {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.LandingBotImageWrapper {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  z-index: 1;
+  left: 30%;
+}
+
+.LandingBotImage {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.LandingMobileWrapper {
+  position: absolute;
+  top: -80px;
+  right: 0;
+  width: 400px;
+  z-index: 1;
+}
+
+.LandingMobile {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.LandingContentMobile {
+  position: absolute;
+  width: 240px;
+  right: 78px;
+  top: 81px;
+  height: 412px;
+}
+
+.LandingHeaderLinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+}
+
+.LandingHeaderLink {
+  cursor: pointer;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.LandingHeaderLinkButton {
+  padding: 15px;
+  background: #e12021;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+  min-width: 120px;
+  box-shadow: 2px 2px 3px #333333;
+}
+
+.LandingHeaderLinkButton:hover {
+  background: #ef3c3d;
+}
+
+.LandingSection {
+  padding: 50px;
+}
+
+.LandingTitle {
+  font-size: 30px;
+  max-width: 60%;
+  margin: 15px 0;
+}
+
+.LandingSubtitle {
+  font-size: 22px;
+  max-width: 60%;
+  text-align: center;
+}
+
+.LandingIcons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.LandingSection.IsWhite {
+  margin-top: 100px;
+}
+
+.LandingSection.IsGray {
+  background: #e3e3e3;
+}
+
+.LandingSection.IsRed {
+  background: #e12021;
+}
+
+.LandingSection.IsBlue {
+  background: #4443cd;
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 600;
+  position: relative;
+}
+
+.LandingContent {
+  max-width: 1024px;
+  margin: auto;
+  position: relative;
+}
+
+.LandingContent.IsFeatures {
+  display: flex;
+  align-items: center;
+}
+
+.LandingBackground {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  height: auto;
+  left: 0;
+}
+
+.LandingFeatures {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.LandingFeature {
+  width: 30%;
+  text-align: center;
+}
+
+.LandingFeatureImage {
+  width: 80px;
+  height: 80px;
+  margin: auto;
+}
+
+.LandingFeatureTitle {
+  margin-top: 15px;
+  font-weight: 600;
+  color: #4443cd;
+  font-size: 22px;
+}
+
+.LandingContactTitle {
+  text-align: center;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 25px;
+  margin: 0;
+}
+
+.LandingForm {
+  max-width: 400px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.LandingInputGroup {
+  margin-bottom: 30px;
+}
+
+.LandingLabel {
+  color: #e3e3e3;
+  font-size: 18px;
+}
+
+.LandingInput {
+  width: 100%;
+  border: none;
+  background: transparent;
+  outline: none;
+  border-bottom: 1px solid #e3e3e3;
+  height: 25px;
+  color: #333333;
+  font-size: 18px;
+  padding: 5px;
+}
+
+.LandingFormButton {
+  text-align: center;
+  padding: 15px;
+  background: #4443cd;
+  color: #ffffff;
+  cursor: pointer;
+  min-width: 120px;
+  box-shadow: 2px 2px 3px #333333;
+  width: 80px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.LandingIcons {
+  width: 130px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.LandingIconWrapper {
+  width: 40px;
+  height: 40px;
+}
+
+.LandingIcon {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.LandingText {
+  text-align: center;
+}

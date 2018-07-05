@@ -1,0 +1,126 @@
+body {
+  color: #333333;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.isHidden {
+  display: none;
+}
+
+.icon {
+  display: inline-block;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  vertical-align: middle;
+  height: 100px;
+  width: 100px;
+}
+
+.icon.icon-category-1.is-red {
+  background-image: url('./assets/icon-category-1-red.svg');
+}
+
+.icon.icon-category-1.is-blue {
+  background-image: url('./assets/icon-category-1-blue.svg');
+}
+
+.icon.icon-category-1.is-active.is-red,
+.icon.icon-category-1.is-active.is-blue
+{
+  background-image: url('./assets/icon-category-1-active.svg');
+}
+
+.icon.icon-category-2.is-red {
+  background-image: url('./assets/icon-category-2-red.svg');
+}
+
+.icon.icon-category-2.is-blue {
+  background-image: url('./assets/icon-category-2-blue.svg');
+}
+
+.icon.icon-category-2.is-active.is-red,
+.icon.icon-category-2.is-active.is-blue
+{
+  background-image: url('./assets/icon-category-2-active.svg');
+}
+
+.icon.icon-category-3.is-red {
+  background-image: url('./assets/icon-category-3-red.svg');
+}
+
+.icon.icon-category-3.is-blue {
+  background-image: url('./assets/icon-category-3-blue.svg');
+}
+
+.icon.icon-category-3.is-active.is-red,
+.icon.icon-category-3.is-active.is-blue
+{
+  background-image: url('./assets/icon-category-3-active.svg');
+}
+
+.icon.icon-category-4.is-red {
+  background-image: url('./assets/icon-category-4-red.svg');
+}
+
+.icon.icon-category-4.is-blue {
+  background-image: url('./assets/icon-category-4-blue.svg');
+}
+
+.icon.icon-category-4.is-active.is-red,
+.icon.icon-category-4.is-active.is-blue
+{
+  background-image: url('./assets/icon-category-4-active.svg');
+}
+
+.icon.icon-category-5.is-red {
+  background-image: url('./assets/icon-category-5-red.svg');
+}
+
+.icon.icon-category-5.is-blue {
+  background-image: url('./assets/icon-category-5-blue.svg');
+}
+
+.icon.icon-category-5.is-active.is-red,
+.icon.icon-category-5.is-active.is-blue
+{
+  background-image: url('./assets/icon-category-5-active.svg');
+}
+
+.icon.icon-category-6.is-red {
+  background-image: url('./assets/icon-category-6-red.svg');
+}
+
+.icon.icon-category-6.is-blue {
+  background-image: url('./assets/icon-category-6-blue.svg');
+}
+
+.icon.icon-category-6.is-active.is-red,
+.icon.icon-category-6.is-active.is-blue
+{
+  background-image: url('./assets/icon-category-6-active.svg');
+}
+
+.icon.icon-category-7.is-red {
+  background-image: url('./assets/icon-category-7-red.svg');
+}
+
+.icon.icon-category-7.is-blue {
+  background-image: url('./assets/icon-category-7-blue.svg');
+}
+
+.icon.icon-category-7.is-active.is-red,
+.icon.icon-category-7.is-active.is-blue
+{
+  background-image: url('./assets/icon-category-7-active.svg');
+}
+
+.recharts-wrapper {
+  margin: auto;
+}
